@@ -1,0 +1,56 @@
+.box {
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 280px;
+  height: 100px;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+  .box-text-container {
+    margin-left: 20px;
+  }
+}
+
+.box1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.box-image {
+  height: 60px;
+  margin-left: 10px;
+}
+
+.box2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.box3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  margin-right: 0;
+}
+
+.box-text-container {
+  margin-left: 10px;
+}
+.your-balance-title {
+  color: #475569;
+  font-size: 16px;
+}
+.your-balance {
+  color: #475569;
+  font-weight: 600;
+  font-size: 26px;
+}
